@@ -4,10 +4,10 @@ metadata:
   name: mongo-pv
 spec:
   capacity:
-    storage: 4Gi
+    storage: 5Gi
   accessModes:
     - ReadWriteOnce
   csi:
     driver: disk-csi-driver.mks.ycloud.io
     fsType: ext4
-    volumeHandle: fhm7u6l4bjun15pssct0
+    volumeHandle: fhmktcpsatge4dl8sgt0
